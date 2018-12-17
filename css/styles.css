@@ -1,0 +1,82 @@
+
+
+
+
+/* header*/
+@charset "utf-8";
+/* CSS Document */
+*{margin-left: auto !important;
+  margin-right:auto !important;
+   padding: 0;
+  box-sizing: border-box;
+	
+}
+/* to change scrollbar*/ 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #dedede; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3c4049; 
+}
+/**************************nav************************/
+body{background-image: url(../imgs/pattern.png);
+     font-family: 'Lora', serif;
+
+}
+
+.container {width:50%;
+			height: auto;
+			text-align: center;
+			background-color: #fff;
+			border: 1px solid #f3dede;
+			margin: 100px;
+			-webkit-box-shadow: 0px 1px 24px 6px rgba(224,205,182,1);
+			-moz-box-shadow: 0px 1px 24px 6px rgba(224,205,182,1);
+			box-shadow: 0px 1px 24px 6px rgba(224,205,182,1);
+}
+
+h4{margin: 20px;
+   color: #fad48c}
+
+input,textarea{ border: 1px solid rgba(250, 212, 140, .5)!important;
+				margin-bottom: 20px!important;
+				display: inline-block!important;
+	            opacity: .8;
+}
+textarea{height: 120px}
+input:focus,textarea:focus{border-bottom: 1px solid orange !important;opacity: 1}
+button{ width: 100%;
+		color: #fff;
+		background-color: #fad48c;
+		margin-bottom: 50px;}
+
+#gmail,#phone{text-align: left; opacity: .6}
+@media only screen and (max-width: 991px){
+	.container{width: 75%;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
